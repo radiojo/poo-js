@@ -22,6 +22,10 @@ class CoffeeMaker {
     hasCoffee() {
         return this.#coffee > 0;
     }
+
+    getCoffee() {
+      return this.#coffee;
+    }
 }
 
 module.exports = CoffeeMaker;
